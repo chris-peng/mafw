@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript" src="jquery-1.12.3.js"></script>
+	<script type="text/javascript" src="majsfw/juicer.js"></script>
+	<script type="text/javascript" src="majsfw/mafw.js"></script>
+	<script type="text/javascript" src="majsfw/mutil.js"></script>
+	<script type="text/javascript" src="majsfw/service.js"></script>
+	<script type="text/javascript">
+		/* Mafw.loadComponent('tpl/tpl_test.html', 'tpl/tpl_test.js', function(c){
+			c.jqo().appendTo($("#ctn"));
+		}, {name: '11', contact: '22'});
+		
+		Mafw.service.s('getUsers', {
+			success: function(r){alert(r);},
+			error: function(){alert('request error!');}
+		});
+		alert(Mafw.util.dataLength('aa')); */
+	</script>
+	<div id="ctn"></div>
+	
+	<p id="test-bind1">1<span>cc</span></p>
+	<p id="test-bind2">2</p>
+	<p id="test-bind3">3</p>
+	<p id="test-bind4">4</p>
+	
+	<script type="text/javascript">
+		/* $("p#test-bind1").bindData({a:'aabb',b:'cc2'});
+		$("p#test-bind3").bindData({a:'aabb',b:'cc'});
+		alert($("p").bindData());
+		//$("p").unbindData("aabb");
+		$("p#test-bind2").remove();
+		alert($("#test-bind1").bindData().b); */
+	</script>
+</body>
+</html>
